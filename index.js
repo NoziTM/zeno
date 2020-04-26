@@ -104,7 +104,7 @@ client.on('message', function (message) {
      .setAuthor("INVITATION")
      .setColor("RANDOM")
      .setImage("https://media.giphy.com/media/N8hxQW63pdSbS/giphy.gif")
-     .setURL("https://discordapp.com/api/oauth2/authorize?client_id=699747277866008656&permissions=8&scope=bot")
+     .setURL("https://discordapp.com/api/oauth2/authorize?client_id=703585994309500970&permissions=8&scope=bot")
      .setThumbnail(message.author.avatarURL)
   .setFooter(`Commande invite`, message.author.avatarURL)
         message.channel.send(embed)
@@ -899,5 +899,5 @@ if (message.content.startsWith(prefix + "serveurlist")) {
             console.log("voici son prefix : " + prefix )
             console.log('\x1b[31m%s\x1b[0m', "Votre ID "+(ClientID));
             
-           client.user.setActivity(` $help |Sous-Le pont`);
+           client.user.setActivity(` $help | Le Loup`);
 });
